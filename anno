@@ -1,0 +1,17 @@
+# annotation
+
+prokka --outdir anno_subset --prefix ecto_subset_prokka ecto_subset.contigs.fasta
+
+prokka --outdir BP/annotation BP/output_dir/006_rotated.gfa
+
+
+cat BP/annotation/PROKKA_01102020.txt
+
+organism: Genus species strain 
+contigs: 5
+bases: 4429206
+CDS: 3626
+CRISPR: 1
+tRNA: 89
+tmRNA: 1
+
